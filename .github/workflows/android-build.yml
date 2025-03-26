@@ -19,8 +19,8 @@ jobs:
             distribution: 'zulu' 
             java-version: 17
 
-        - name: make gradlew executable
-          run: chmod +x gradlew
+        - name: make gradle executable
+          run: chmod +x gradle
 
         - name: build with Gradle
-          run:  ./gradlew assembleDebug
+          run:  ./gradle assembleDebug
